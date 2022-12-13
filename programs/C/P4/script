@@ -1,0 +1,7 @@
+init 4
+add Loop1 3006
+add Loop2 3018
+add PrintMove 4000
+list
+count
+exit

@@ -1,0 +1,32 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	digits            3005
+//	exit              3076
+//	toPrint           306D
+//	option            3001
+//	hanoi             307A
+//	testHanoi         3056
+//	baseCASE          307E
+//	main              304A
+//	numDisks          3002
+//	baseCASEFAIL      308C
+//	endTower          3004
+//	negONE            3079
+//	cleanUP           30AF
+//	diskPrint         305F
+//	ENDLINE           305B
+//	printMove         305C
+//	stack             3049
+//	fromPrint         3066
+//	msg1              3010
+//	msg2              301B
+//	endTest           3057
+//	msg3              3028
+//	endMsg            3033
+//	theEnd            305A
+//	functions         3095
+//	startTower        3003
+//	testPrintMove     3054
+//	baseCASEHIT       3082

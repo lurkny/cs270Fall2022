@@ -1,0 +1,29 @@
+Step 1: Caller puts params on the stack
+Step 2: JSR
+Step 3: Allocate space for the return
+-- Add R6,R6, #-1
+--Subtract to move up the stack.
+
+Steps 4-5: Save R7 and R5 to the stack.
+Step 6: Make a new R5. - This needs to point to temp. - Which is at the top of the stack.
+--ADD R5, R6, #-1
+--We can decrement R6 as many times as we want to open up memory.
+--R5 is how we access vars from inside of code.
+
+To get rid of a local var, increment the stack pointer as many times are there are local vars.
+Then pop
+Then call RET
+
+
+
+
+
+Notes:
+2 Ways to Push to Stack
+1 - (our way) - STR R0, R6, #0 - ADD R6, R6, #-1 - USE PUSH R0 - Its a macro that does the first 2 lines.
+JSR Factorial
+  
+
+
+R6 -> Stack Pointer
+R5 -> Frame Pointer

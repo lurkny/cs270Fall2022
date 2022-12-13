@@ -1,0 +1,16 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	addBit            3017
+//	sLoop             300F
+//	mirror            3007
+//	Eight             3005
+//	Result            3003
+//	mLoop             3014
+//	eLoop             3013
+//	skipped           3018
+//	Mask              3006
+//	emLoop            301C
+//	One               3004
+//	Param             3002
